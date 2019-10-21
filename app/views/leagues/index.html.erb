@@ -1,2 +1,6 @@
 <h1>Leagues</h1>
-<p>Find me in app/views/leagues/index.html.erb</p>
+
+<% @leagues.each do |league| %>
+  <h2><%= league.name %></h2>
+  <h3>This league has <%= pluralize league.clubs.count, 'club' %>.</h3>
+<% end %>
