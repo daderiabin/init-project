@@ -10,12 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_21_025232) do
+ActiveRecord::Schema.define(version: 2019_10_21_033035) do
 
   create_table "card_types", force: :cascade do |t|
     t.string "quality"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "clubs", force: :cascade do |t|
+    t.string "name"
+    t.integer "league_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["league_id"], name: "index_clubs_on_league_id"
   end
 
   create_table "leagues", force: :cascade do |t|
@@ -30,4 +38,5 @@ ActiveRecord::Schema.define(version: 2019_10_21_025232) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "clubs", "leagues"
 end
