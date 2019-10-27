@@ -1,2 +1,12 @@
-<h1>Nations#index</h1>
-<p>Find me in app/views/nations/index.html.erb</p>
+<h1>Nationalities</h1>
+
+<% @nations.each do |nation| %>
+
+  <p>-----------------------------------------</p>
+  <p>
+      <%= image_tag ("/assets/flags/" + nation.img), alt: "Country Flag"%> <h2><%= nation.name %></h2>
+      <p><%= link_to "More", nation %></p>
+  </p>
+  <p>-----------------------------------------</p>
+
+<% end %>
