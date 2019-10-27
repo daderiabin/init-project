@@ -1,1 +1,8 @@
-<h1>Leagues</h1>
+<h1><%= @league.name %></h1>
+<h3>This league has <%= pluralize @league.clubs.count, 'club' %>.</h3>
+
+<ol>
+  <% @league.clubs.each do |club| %>
+    <%= club.name %>
+  <% end %>
+</ol>
