@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_21_033035) do
+ActiveRecord::Schema.define(version: 2019_10_27_024555) do
 
   create_table "card_types", force: :cascade do |t|
     t.string "quality"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 2019_10_21_033035) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "img"
   end
 
   add_foreign_key "clubs", "leagues"

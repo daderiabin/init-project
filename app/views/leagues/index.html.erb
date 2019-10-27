@@ -3,4 +3,5 @@
 <% @leagues.each do |league| %>
   <h2><%= league.name %></h2>
   <h3>This league has <%= pluralize league.clubs.count, 'club' %>.</h3>
+  <p><%= link_to "Check out the league's clubs", league %></p>
 <% end %>

@@ -1,8 +1,12 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  get '/leagues', to: 'leagues#index'
-  get '/leagues/:id', to: 'leagues#show', id: /\d/
+  get 'nations/index'
+  get 'nations/show'
+  resources :leagues, only: %i[index show]
+
+  # get '/leagues', to: 'leagues#index'
+  # get '/leagues/:id', to: 'leagues#show', id: /\d/
 
   root to: 'leagues#index'
 end
