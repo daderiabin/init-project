@@ -1,12 +1,10 @@
 <h1>Nationalities</h1>
-
 <% @nations.each do |nation| %>
-
-  <p>-----------------------------------------</p>
   <p>
-      <%= image_tag ("/assets/flags/" + nation.img), alt: "Country Flag"%> <h2><%= nation.name %></h2>
+      <h2><%= nation.name %></h2>
+      <%= image_tag ("/assets/flags/" + nation.img), alt: "Country Flag"%>
       <p><%= link_to "More", nation %></p>
   </p>
   <p>-----------------------------------------</p>
-
 <% end %>
+<%= pagy_nav(@pagy).html_safe %>

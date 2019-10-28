@@ -1,251 +1,157 @@
 ﻿country_code,country_name,img_32,img_128
 AF,Afghanistan,AF-32.png,AF-128.png
-AX,Aland Islands,AX-32.png,AX-128.png
 AL,Albania,AL-32.png,AL-128.png
 DZ,Algeria,DZ-32.png,DZ-128.png
-AS,American Samoa,AS-32.png,AS-128.png
-AD,Andorra,AD-32.png,AD-128.png
 AO,Angola,AO-32.png,AO-128.png
-AI,Anguilla,AI-32.png,AI-128.png
-AQ,Antarctica,AQ-32.png,AQ-128.png
 AG,Antigua and Barbuda,AG-32.png,AG-128.png
 AR,Argentina,AR-32.png,AR-128.png
 AM,Armenia,AM-32.png,AM-128.png
-AW,Aruba,AW-32.png,AW-128.png
 AU,Australia,AU-32.png,AU-128.png
 AT,Austria,AT-32.png,AT-128.png
 AZ,Azerbaijan,AZ-32.png,AZ-128.png
-BS,Bahamas,BS-32.png,BS-128.png
-BH,Bahrain,BH-32.png,BH-128.png
-BD,Bangladesh,BD-32.png,BD-128.png
 BB,Barbados,BB-32.png,BB-128.png
 BY,Belarus,BY-32.png,BY-128.png
 BE,Belgium,BE-32.png,BE-128.png
 BZ,Belize,BZ-32.png,BZ-128.png
 BJ,Benin,BJ-32.png,BJ-128.png
 BM,Bermuda,BM-32.png,BM-128.png
-BT,Bhutan,BT-32.png,BT-128.png
 BO,Bolivia,BO-32.png,BO-128.png
-BQ,"Bonaire, Saint Eustatius And Saba",BQ-32.png,BQ-128.png
 BA,Bosnia and Herzegovina,BA-32.png,BA-128.png
-BW,Botswana,BW-32.png,BW-128.png
-BV,Bouvet Island,BV-32.png,BV-128.png
 BR,Brazil,BR-32.png,BR-128.png
-IO,British Indian Ocean Territory,IO-32.png,IO-128.png
-BN,Brunei,BN-32.png,BN-128.png
 BG,Bulgaria,BG-32.png,BG-128.png
 BF,Burkina Faso,BF-32.png,BF-128.png
 BI,Burundi,BI-32.png,BI-128.png
-CV,Cabo Verde,CV-32.png,CV-128.png
-KH,Cambodia,KH-32.png,KH-128.png
 CM,Cameroon,CM-32.png,CM-128.png
 CA,Canada,CA-32.png,CA-128.png
-KY,Cayman Islands,KY-32.png,KY-128.png
+CV,Cape Verde Islands,CV-32.png,CV-128.png
 CF,Central African Republic,CF-32.png,CF-128.png
 TD,Chad,TD-32.png,TD-128.png
 CL,Chile,CL-32.png,CL-128.png
-CN,China,CN-32.png,CN-128.png
-CX,Christmas Island,CX-32.png,CX-128.png
-CC,Cocos (Keeling) Islands,CC-32.png,CC-128.png
+CN,China PR,CN-32.png,CN-128.png
 CO,Colombia,CO-32.png,CO-128.png
 KM,Comoros,KM-32.png,KM-128.png
 CG,Congo,CG-32.png,CG-128.png
-CK,Cook Islands,CK-32.png,CK-128.png
+CD,Congo DR,CD-32.png,CD-128.png
 CR,Costa Rica,CR-32.png,CR-128.png
-CI,Côte d'Ivoire,CI-32.png,CI-128.png
 HR,Croatia,HR-32.png,HR-128.png
 CU,Cuba,CU-32.png,CU-128.png
 CW,Curaçao,CW-32.png,CW-128.png
 CY,Cyprus,CY-32.png,CY-128.png
-CZ,Czechia,CZ-32.png,CZ-128.png
-CD,Democratic Republic of the Congo,CD-32.png,CD-128.png
+CZ,Czech Republic,CZ-32.png,CZ-128.png
+CI,Côte d'Ivoire,CI-32.png,CI-128.png
 DK,Denmark,DK-32.png,DK-128.png
-DJ,Djibouti,DJ-32.png,DJ-128.png
-DM,Dominica,DM-32.png,DM-128.png
 DO,Dominican Republic,DO-32.png,DO-128.png
 EC,Ecuador,EC-32.png,EC-128.png
 EG,Egypt,EG-32.png,EG-128.png
 SV,El Salvador,SV-32.png,SV-128.png
+EN,England,EN-32.png,EN-128.png
 GQ,Equatorial Guinea,GQ-32.png,GQ-128.png
 ER,Eritrea,ER-32.png,ER-128.png
 EE,Estonia,EE-32.png,EE-128.png
 ET,Ethiopia,ET-32.png,ET-128.png
-EU,European Union,EU-32.png,EU-128.png
-FK,Falkland Islands (Malvinas),FK-32.png,FK-128.png
+MK,FYR Macedonia,MK-32.png,MK-128.png
 FO,Faroe Islands,FO-32.png,FO-128.png
 FJ,Fiji,FJ-32.png,FJ-128.png
 FI,Finland,FI-32.png,FI-128.png
 FR,France,FR-32.png,FR-128.png
-GF,French Guiana,GF-32.png,GF-128.png
-PF,French Polynesia,PF-32.png,PF-128.png
-TF,French Southern and Antarctic Lands,TF-32.png,TF-128.png
 GA,Gabon,GA-32.png,GA-128.png
+GM,Gambia,GM-32.png,GM-128.png
 GE,Georgia,GE-32.png,GE-128.png
 DE,Germany,DE-32.png,DE-128.png
 GH,Ghana,GH-32.png,GH-128.png
-GI,Gibraltar,GI-32.png,GI-128.png
 GR,Greece,GR-32.png,GR-128.png
-GL,Greenland,GL-32.png,GL-128.png
 GD,Grenada,GD-32.png,GD-128.png
-GP,Guadeloupe,GP-32.png,GP-128.png
 GU,Guam,GU-32.png,GU-128.png
 GT,Guatemala,GT-32.png,GT-128.png
-GG,Guernsey,GG-32.png,GG-128.png
 GN,Guinea,GN-32.png,GN-128.png
 GW,Guinea-Bissau,GW-32.png,GW-128.png
 GY,Guyana,GY-32.png,GY-128.png
 HT,Haiti,HT-32.png,HT-128.png
-HM,Heard Island And McDonald Islands,HM-32.png,HM-128.png
+NL,Holland,NL-32.png,NL-128.png
 HN,Honduras,HN-32.png,HN-128.png
 HK,Hong Kong,HK-32.png,HK-128.png
 HU,Hungary,HU-32.png,HU-128.png
 IS,Iceland,IS-32.png,IS-128.png
-IN,India,IN-32.png,IN-128.png
-ID,Indonesia,ID-32.png,ID-128.png
 IR,Iran,IR-32.png,IR-128.png
 IQ,Iraq,IQ-32.png,IQ-128.png
-IE,Ireland,IE-32.png,IE-128.png
-IM,Isle of Man,IM-32.png,IM-128.png
 IL,Israel,IL-32.png,IL-128.png
 IT,Italy,IT-32.png,IT-128.png
 JM,Jamaica,JM-32.png,JM-128.png
 JP,Japan,JP-32.png,JP-128.png
-JE,Jersey,JE-32.png,JE-128.png
 JO,Jordan,JO-32.png,JO-128.png
 KZ,Kazakhstan,KZ-32.png,KZ-128.png
 KE,Kenya,KE-32.png,KE-128.png
-KI,Kiribati,KI-32.png,KI-128.png
-KW,Kuwait,KW-32.png,KW-128.png
-KG,Kyrgyzstan,KG-32.png,KG-128.png
-LA,Laos,LA-32.png,LA-128.png
+KP,Korea DPR,KP-32.png,KP-128.png
+KR,Korea Republic,KR-32.png,KR-128.png
+KS,Kosovo,KS-32.png,KS-128.png
 LV,Latvia,LV-32.png,LV-128.png
-LB,Lebanon,LB-32.png,LB-128.png
-LS,Lesotho,LS-32.png,LS-128.png
 LR,Liberia,LR-32.png,LR-128.png
 LY,Libya,LY-32.png,LY-128.png
 LI,Liechtenstein,LI-32.png,LI-128.png
 LT,Lithuania,LT-32.png,LT-128.png
 LU,Luxembourg,LU-32.png,LU-128.png
-MO,Macao,MO-32.png,MO-128.png
-MK,Macedonia,MK-32.png,MK-128.png
 MG,Madagascar,MG-32.png,MG-128.png
-MW,Malawi,MW-32.png,MW-128.png
-MY,Malaysia,MY-32.png,MY-128.png
-MV,Maldives,MV-32.png,MV-128.png
 ML,Mali,ML-32.png,ML-128.png
 MT,Malta,MT-32.png,MT-128.png
-MH,Marshall Islands,MH-32.png,MH-128.png
-MQ,Martinique,MQ-32.png,MQ-128.png
 MR,Mauritania,MR-32.png,MR-128.png
 MU,Mauritius,MU-32.png,MU-128.png
-YT,Mayotte,YT-32.png,YT-128.png
 MX,Mexico,MX-32.png,MX-128.png
-FM,Micronesia,FM-32.png,FM-128.png
 MD,Moldova,MD-32.png,MD-128.png
-MC,Monaco,MC-32.png,MC-128.png
-MN,Mongolia,MN-32.png,MN-128.png
 ME,Montenegro,ME-32.png,ME-128.png
 MS,Montserrat,MS-32.png,MS-128.png
 MA,Morocco,MA-32.png,MA-128.png
 MZ,Mozambique,MZ-32.png,MZ-128.png
-MM,Myanmar,MM-32.png,MM-128.png
 NA,Namibia,NA-32.png,NA-128.png
-NR,Nauru,NR-32.png,NR-128.png
-NP,Nepal,NP-32.png,NP-128.png
-NL,Netherlands,NL-32.png,NL-128.png
 NC,New Caledonia,NC-32.png,NC-128.png
 NZ,New Zealand,NZ-32.png,NZ-128.png
-NI,Nicaragua,NI-32.png,NI-128.png
 NE,Niger,NE-32.png,NE-128.png
 NG,Nigeria,NG-32.png,NG-128.png
-NU,Niue,NU-32.png,NU-128.png
-NF,Norfolk Island,NF-32.png,NF-128.png
-KP,North Korea,KP-32.png,KP-128.png
-MP,Northern Mariana Islands,MP-32.png,MP-128.png
+NIR,Northern Ireland,NIR-32.png,NIR-128.png
 NO,Norway,NO-32.png,NO-128.png
 OM,Oman,OM-32.png,OM-128.png
-PK,Pakistan,PK-32.png,PK-128.png
-PW,Palau,PW-32.png,PW-128.png
-PS,"Palestinian Territory, Occupied",PS-32.png,PS-128.png
+PS,Palestine,PS-32.png,PS-128.png
 PA,Panama,PA-32.png,PA-128.png
-PG,Papua New Guinea,PG-32.png,PG-128.png
 PY,Paraguay,PY-32.png,PY-128.png
 PE,Peru,PE-32.png,PE-128.png
 PH,Philippines,PH-32.png,PH-128.png
-PN,Pitcairn Islands,PN-32.png,PN-128.png
 PL,Poland,PL-32.png,PL-128.png
 PT,Portugal,PT-32.png,PT-128.png
 PR,Puerto Rico,PR-32.png,PR-128.png
-QA,Qatar,QA-32.png,QA-128.png
-RE,Réunion,RE-32.png,RE-128.png
+IE,Republic of Ireland,IE-32.png,IE-128.png
 RO,Romania,RO-32.png,RO-128.png
 RU,Russia,RU-32.png,RU-128.png
 RW,Rwanda,RW-32.png,RW-128.png
-BL,Saint Barthélemy,BL-32.png,BL-128.png
-SH,"Saint Helena, Ascension and Tristan da Cunha",SH-32.png,SH-128.png
-KN,Saint Kitts and Nevis,KN-32.png,KN-128.png
-LC,Saint Lucia,LC-32.png,LC-128.png
-MF,Saint Martin,MF-32.png,MF-128.png
-PM,Saint Pierre and Miquelon,PM-32.png,PM-128.png
-VC,Saint Vincent and the Grenadines,VC-32.png,VC-128.png
-WS,Samoa,WS-32.png,WS-128.png
-SM,San Marino,SM-32.png,SM-128.png
-ST,Sao Tome and Principe,ST-32.png,ST-128.png
 SA,Saudi Arabia,SA-32.png,SA-128.png
+SCL,Scotland,SCL-32.png,SCL-128.png
 SN,Senegal,SN-32.png,SN-128.png
 RS,Serbia,RS-32.png,RS-128.png
-SC,Seychelles,SC-32.png,SC-128.png
 SL,Sierra Leone,SL-32.png,SL-128.png
-SG,Singapore,SG-32.png,SG-128.png
-SX,Sint Maarten,SX-32.png,SX-128.png
 SK,Slovakia,SK-32.png,SK-128.png
 SI,Slovenia,SI-32.png,SI-128.png
-SB,Solomon Islands,SB-32.png,SB-128.png
-SO,Somalia,SO-32.png,SO-128.png
 ZA,South Africa,ZA-32.png,ZA-128.png
-GS,South Georgia and the South Sandwich Islands,GS-32.png,GS-128.png
-KR,South Korea,KR-32.png,KR-128.png
 SS,South Sudan,SS-32.png,SS-128.png
 ES,Spain,ES-32.png,ES-128.png
-LK,Sri Lanka,LK-32.png,LK-128.png
+KN,St. Kitts and Nevis,KN-32.png,KN-128.png
+LC,St. Lucia,LC-32.png,LC-128.png
 SD,Sudan,SD-32.png,SD-128.png
 SR,Suriname,SR-32.png,SR-128.png
-SJ,Svalbard and Jan Mayen,SJ-32.png,SJ-128.png
-SZ,Swaziland,SZ-32.png,SZ-128.png
 SE,Sweden,SE-32.png,SE-128.png
 CH,Switzerland,CH-32.png,CH-128.png
 SY,Syria,SY-32.png,SY-128.png
-TW,Taiwan,TW-32.png,TW-128.png
-TJ,Tajikistan,TJ-32.png,TJ-128.png
+ST,São Tomé e Príncipe,ST-32.png,ST-128.png
 TZ,Tanzania,TZ-32.png,TZ-128.png
 TH,Thailand,TH-32.png,TH-128.png
-GM,The Gambia,GM-32.png,GM-128.png
-TL,Timor-Leste,TL-32.png,TL-128.png
 TG,Togo,TG-32.png,TG-128.png
-TK,Tokelau,TK-32.png,TK-128.png
-TO,Tonga,TO-32.png,TO-128.png
 TT,Trinidad and Tobago,TT-32.png,TT-128.png
 TN,Tunisia,TN-32.png,TN-128.png
 TR,Turkey,TR-32.png,TR-128.png
-TM,Turkmenistan,TM-32.png,TM-128.png
-TC,Turks and Caicos Islands,TC-32.png,TC-128.png
-TV,Tuvalu,TV-32.png,TV-128.png
 UG,Uganda,UG-32.png,UG-128.png
 UA,Ukraine,UA-32.png,UA-128.png
 AE,United Arab Emirates,AE-32.png,AE-128.png
-GB,United Kingdom,GB-32.png,GB-128.png
 US,United States,US-32.png,US-128.png
-UM,United States Minor Outlying Islands,UM-32.png,UM-128.png
-VI,United States Virgin Islands,VI-32.png,VI-128.png
 UY,Uruguay,UY-32.png,UY-128.png
 UZ,Uzbekistan,UZ-32.png,UZ-128.png
-VU,Vanuatu,VU-32.png,VU-128.png
-VA,Vatican City State,VA-32.png,VA-128.png
 VE,Venezuela,VE-32.png,VE-128.png
-VN,Viet Nam,VN-32.png,VN-128.png
-VG,Virgin Islands,VG-32.png,VG-128.png
-WF,Wallis and Futuna,WF-32.png,WF-128.png
-EH,Western Sahara,EH-32.png,EH-128.png
-YE,Yemen,YE-32.png,YE-128.png
+WL,Wales,WL-32.png,WL-128.png
 ZM,Zambia,ZM-32.png,ZM-128.png
 ZW,Zimbabwe,ZW-32.png,ZW-128.png

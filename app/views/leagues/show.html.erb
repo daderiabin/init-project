@@ -1,10 +1,12 @@
 <h1><%= @league.name %></h1>
 <h3>This league has <%= pluralize @league.clubs.count, 'club' %>.</h3>
 
-<ol>
+<ul>
   <% @league.clubs.each do |club| %>
-    <%= club.name %>
+    <li>
+      <%= club.name %>
+    </li>
   <% end %>
-</ol>
+</ul>
 
 <p><%= link_to 'Home', root_path %></p>

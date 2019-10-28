@@ -11,6 +11,8 @@ gem 'sqlite3', '~> 1.4'
 gem 'puma', '~> 3.11'
 # Use smarter csv
 gem 'smarter_csv'
+# Use pagy
+gem 'pagy', '~> 3.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
