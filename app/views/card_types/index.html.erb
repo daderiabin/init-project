@@ -1,0 +1,7 @@
+<h1>Card Types</h1>
+
+<% @card_types.each do |c_t| %>
+  <h2><%= link_to c_t.quality, c_t %></h2>
+  <p>______________________________________________________________</p>
+<% end %>
+<%= pagy_nav(@pagy).html_safe %>
