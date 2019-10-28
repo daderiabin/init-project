@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  full_name: MyString
+  rating: 1
+  position: MyString
+  age: 1
+  skill_moves: 1
+  weak_foot: 1
+  price: 1.5
+  card_type: one
+  nation: one
+  league: one
+  club: one
+
+two:
+  name: MyString
+  full_name: MyString
+  rating: 1
+  position: MyString
+  age: 1
+  skill_moves: 1
+  weak_foot: 1
+  price: 1.5
+  card_type: two
+  nation: two
+  league: two
+  club: two
