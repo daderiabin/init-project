@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  get 'players/index'
+  get 'players/show'
   resources :leagues, only: %i[index show]
   resources :clubs, only: %i[index show]
   resources :nations, only: %i[index show]
