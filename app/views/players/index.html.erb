@@ -1,2 +1,7 @@
-<h1>Players#index</h1>
-<p>Find me in app/views/players/index.html.erb</p>
+<h1>Players</h1>
+
+<% @players.each do |p| %>
+  <h2><%= link_to p.name, p %></h2>
+  <p>______________________________________________________________</p>
+<% end %>
+<%= pagy_nav(@pagy).html_safe %>
