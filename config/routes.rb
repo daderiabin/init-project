@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :pages
   resources :nations, only: %i[index show]
   resources :card_types, only: %i[index show]
   resources :leagues, only: %i[index show]

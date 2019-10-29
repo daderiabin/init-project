@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_28_185744) do
+ActiveRecord::Schema.define(version: 2019_10_29_141012) do
 
   create_table "card_types", force: :cascade do |t|
     t.string "quality"
@@ -37,6 +37,14 @@ ActiveRecord::Schema.define(version: 2019_10_28_185744) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "img"
+  end
+
+  create_table "pages", force: :cascade do |t|
+    t.string "title"
+    t.string "content"
+    t.string "permalink"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "players", force: :cascade do |t|
