@@ -4,7 +4,7 @@ class PlayersController < ApplicationController
   include Pagy::Backend
 
   def index
-    @pagy, @players = pagy(Player.order(:rating), page: params[:page], items: 25)
+    @pagy, @players = pagy(Player.order(rating: :desc), page: params[:page], items: 100)
   end
 
   def show

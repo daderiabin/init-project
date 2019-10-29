@@ -4,7 +4,8 @@ class ClubsController < ApplicationController
   include Pagy::Backend
 
   def index
-    @pagy, @clubs = pagy(Club.order(:name), page: params[:page], items: 10)
+    @clubs = Club.order(:name)
+    # @pagy, @clubs = pagy(Club.order(:name), page: params[:page], items: 25)
   end
 
   def show

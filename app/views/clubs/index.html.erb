@@ -1,7 +1,13 @@
 <h1>Clubs</h1>
 
-<% @clubs.each do |club| %>
-  <h2><%= link_to club.name, club %> of <%= club.league.name %></h2>
-  <p>______________________________________________________________</p>
+<% if @clubs.count == 0 %>
+  <h2>Sorry, no clubs here yet.</h2>
+<% else %>
+  <ul>
+    <%  @clubs.each do |club| %>
+      <li>
+        <%= link_to club.name, club %>
+      </li>
+    <% end %>
+  </ul>
 <% end %>
-<%= pagy_nav(@pagy).html_safe %>

@@ -4,7 +4,8 @@ class NationsController < ApplicationController
   include Pagy::Backend
 
   def index
-    @pagy, @nations = pagy(Nation.order(:name), page: params[:page], items: 10)
+    @nations = Nation.order(:name)
+    # @pagy, @nations = pagy(Nation.order(:name), page: params[:page], items: 10)
   end
 
   def show

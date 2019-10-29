@@ -1,7 +1,13 @@
 <h1>Card Types</h1>
 
-<% @card_types.each do |c_t| %>
-  <h2><%= link_to c_t.quality, c_t %></h2>
-  <p>______________________________________________________________</p>
+<% if @card_types.count == 0 %>
+  <h2>Sorry, no card types here yet.</h2>
+<% else %>
+  <ul>
+    <% @card_types.each do |c_t| %>
+      <li>
+        <%= link_to c_t.quality, c_t %>
+      </li>
+    <% end %>
+  </ul>
 <% end %>
-<%= pagy_nav(@pagy).html_safe %>

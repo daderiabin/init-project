@@ -4,7 +4,8 @@ class CardTypesController < ApplicationController
   include Pagy::Backend
 
   def index
-    @pagy, @card_types = pagy(CardType.order(:quality), page: params[:page], items: 10)
+    @card_types = CardType.order(:quality)
+    # @pagy, @card_types = pagy(CardType.order(:quality), page: params[:page], items: 10)
   end
 
   def show

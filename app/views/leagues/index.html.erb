@@ -1,9 +1,15 @@
 <h1>Leagues</h1>
 
-<% @leagues.each do |league| %>
-  <h2><%= league.name %></h2>
-  <h3>This league has <%= pluralize league.clubs.count, 'club' %>.</h3>
-  <p><%= link_to "Check out the league's clubs", league %></p>
-  <p>______________________________________________________________</p>
+<% if @leagues.count == 0 %>
+  <h2>Sorry, no leagues here yet.</h2>
+<% else %>
+  <ul>
+    <% @leagues.each do |league| %>
+      <li>
+        <%= link_to league.name, league %>
+         -
+        <%= league.clubs.count %>
+      </li>
+    <% end %>
+  </ul>
 <% end %>
-<%= pagy_nav(@pagy).html_safe %>

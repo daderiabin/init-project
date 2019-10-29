@@ -1,10 +1,17 @@
 <h1>Nationalities</h1>
-<% @nations.each do |nation| %>
-  <p>
-      <h2><%= nation.name %></h2>
-      <%= image_tag ("/assets/flags/" + nation.img), alt: "Country Flag"%>
-      <p><%= link_to "More", nation %></p>
-  </p>
-  <p>-----------------------------------------</p>
+
+<% if @nations.count == 0 %>
+  <h2>Sorry, no nationalities here yet.</h2>
+<% else %>
+  <ul>
+    <% @nations.each do |nation| %>
+      <li>
+        <%= image_tag ("/assets/flags/" + nation.img), alt: "Country Flag"%>
+         -
+        <%= link_to nation.name, nation %>
+      </li>
+    <% end %>
+  </ul>
 <% end %>
-<%= pagy_nav(@pagy).html_safe %>
+
+

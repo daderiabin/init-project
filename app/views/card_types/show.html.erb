@@ -1,2 +1,16 @@
 <h1><%= @card_type.quality %></h1>
-<p>Some players will be here.....</p>
+<h3>This card type has <%= pluralize @card_type.players.count, 'player' %>.</h3>
+
+<p><%= link_to 'Home', root_path %></p>
+
+<% if @card_type.players.count == 0 %>
+  <h2>Sorry, no players here yet.</h2>
+<% else %>
+  <ul>
+    <% @card_type.players.each do |player| %>
+      <li>
+        <%= link_to player.name, player %>, <%= player.position %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
