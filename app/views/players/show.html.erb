@@ -1,3 +1,21 @@
 <h1><%= @player.name %></h1>
 <h2><%= @player.full_name %></h2>
 <p>Some info will be here.....</p>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Full Name</th>
+      <th>Overall</th>
+      <th>Nationality</th>
+      <th>League</th>
+      <th>Club</th>
+    </tr>
+      <tr>
+        <td><%= link_to @player.name, @player %></td>
+        <td><%= @player.full_name %></td>
+        <td><%= @player.rating.to_s %></td>
+        <td><%= link_to @player.nation.name, @player.nation %></td>
+        <td><%= link_to @player.league.name, @player.league %></td>
+        <td><%= link_to @player.club.name, @player.club %></td>
+      </tr>
+  </table>

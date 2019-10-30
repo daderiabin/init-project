@@ -1,7 +1,7 @@
 <h1><%= @club.name %></h1>
 <h3>This club has <%= pluralize @club.players.count, 'player' %>.</h3>
 
-<p><%= link_to 'Home', root_path %></p>
+<p><%= link_to @club.league.name, @club.league %></p>
 
 <% if @club.players.count == 0 %>
   <h2>Sorry, no players here yet.</h2>
