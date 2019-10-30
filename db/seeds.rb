@@ -5,6 +5,7 @@ Club.destroy_all
 League.destroy_all
 Nation.destroy_all
 CardType.destroy_all
+Page.destroy_all
 
 # Data from countries.csv
 c_file = Rails.root + 'db/csv/countries.csv'
@@ -46,7 +47,7 @@ rows.each do |row|
   player.save!
 end
 
-# Page.create(title: 'About Us', content: 'Please fill it in.', permalink: 'about-us')
+Page.create(title: 'About Us', content: 'Please fill it in.', permalink: 'about_us')
 
 puts "Generated #{Nation.count} nationalities."
 puts "Generated #{CardType.count} card types."

@@ -1,7 +1,11 @@
 # frozen_string_literal: true
 
 class PagesController < ApplicationController
-  http_basic_authenticate_with name: 'sparrow', password: 'captainsparrow', except: :show
+  http_basic_authenticate_with(
+    name: 'sparrow',
+    password: 'captainsparrow',
+    except: :permalink
+  )
 
   before_action :set_page, only: %i[show edit update destroy]
 
