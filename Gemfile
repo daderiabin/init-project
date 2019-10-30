@@ -15,6 +15,8 @@ gem 'smarter_csv'
 gem 'pagy', '~> 3.5'
 # Use faker
 gem 'faker'
+# Use bootstrap
+gem 'bootstrap', '~> 4.3.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker

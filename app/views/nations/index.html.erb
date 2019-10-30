@@ -1,17 +1,17 @@
 <h1>Nationalities</h1>
 
-<% if @nations.count == 0 %>
-  <h2>Sorry, no nationalities here yet.</h2>
-<% else %>
-  <ul>
-    <% @nations.each do |nation| %>
-      <li>
-        <%= image_tag ("/assets/flags/" + nation.img), alt: "Country Flag"%>
-         -
-        <%= link_to nation.name, nation %>
-      </li>
-    <% end %>
-  </ul>
-<% end %>
-
-
+<div class="container">
+  <% if @nations.count == 0 %>
+    <h2>Sorry, no nationalities here yet.</h2>
+  <% else %>
+      <div class="row">
+        <% @nations.each do |nation| %>
+          <div class="col-4">
+            <%= image_tag ("/assets/flags/" + nation.img), alt: "Country Flag"%>
+            <%= link_to nation.name, nation %>
+          </div>
+      <% end %>
+    </ul>
+  <% end %>
+</div>
+<p></p>

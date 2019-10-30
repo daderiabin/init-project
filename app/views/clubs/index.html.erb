@@ -1,13 +1,15 @@
 <h1>Clubs</h1>
 
-<% if @clubs.count == 0 %>
-  <h2>Sorry, no clubs here yet.</h2>
-<% else %>
-  <ul>
-    <%  @clubs.each do |club| %>
-      <li>
-        <%= link_to club.name, club %>
-      </li>
-    <% end %>
-  </ul>
-<% end %>
+<div class="container">
+  <% if @clubs.count == 0 %>
+    <h2>Sorry, no clubs here yet.</h2>
+  <% else %>
+    <div class="row">
+      <%  @clubs.each do |club| %>
+        <div class="col-4">
+          <%= link_to club.name, club %>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>

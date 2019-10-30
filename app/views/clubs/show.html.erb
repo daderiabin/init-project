@@ -3,14 +3,16 @@
 
 <p><%= link_to @club.league.name, @club.league %></p>
 
-<% if @club.players.count == 0 %>
-  <h2>Sorry, no players here yet.</h2>
-<% else %>
-  <ul>
-    <% @club.players.each do |player| %>
-      <li>
-        <%= link_to player.name, player %>, <%= player.position %>
-      </li>
-    <% end %>
-  </ul>
-<% end %>
+<div class="container">
+  <% if @club.players.count == 0 %>
+    <h2>Sorry, no players here yet.</h2>
+  <% else %>
+    <div class="row">
+      <% @club.players.each do |player| %>
+        <div class="col-4">
+          <%= link_to player.name, player %>, <%= player.position %>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>
