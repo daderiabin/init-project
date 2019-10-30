@@ -11,13 +11,22 @@
 
   <body>
     <header>
+      <h1><%= link_to "Fifa 19 Cards", root_path %></h1>
       <nav>
         <ul>
           <li><%= link_to 'Home', root_path %></li>
           <li><%= link_to 'About', permalink_path(permalink: 'about_us') %></li>
         </ul>
       </nav>
+      <%= form_tag players_path, :method => 'get' do %>
+        <p>
+          <%= text_field_tag :search, params[:search] %>
+          <%= select_tag :card_type, options_from_collection_for_select(CardType.all, "id", "quality"), include_blank: "All" %>
+          <%= submit_tag "Search", :name => nil %>
+        </p>
+      <% end %>
     </header>
+    <p></p>
     <%= yield %>
   </body>
 </html>
