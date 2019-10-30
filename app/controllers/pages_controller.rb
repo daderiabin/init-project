@@ -3,7 +3,7 @@
 class PagesController < ApplicationController
   http_basic_authenticate_with(
     name: 'sparrow',
-    password: 'captainsparrow',
+    password: 'captain',
     except: :permalink
   )
 

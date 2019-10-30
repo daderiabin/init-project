@@ -9,7 +9,11 @@ Rails.application.routes.draw do
   resources :card_types, only: %i[index show]
   resources :leagues, only: %i[index show]
   resources :clubs, only: %i[index show]
-  resources :players, only: %i[index show]
+  resources :players, only: %i[index show] do
+    collection do
+      get 'search_results'
+    end
+  end
 
   root to: 'players#index'
 end
